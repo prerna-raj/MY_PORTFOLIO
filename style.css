@@ -152,5 +152,6 @@ nav{
        flex-direction: column;
        padding: 2rem;
        font-size:2vw;
+       background-color: crimson;
     }
 }
