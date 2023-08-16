@@ -1,6 +1,6 @@
 var typed = new Typed('#element', {
     strings: ['Coder','Web Designer','Front-End Web Developer' ],
-    // strings: [' Front-End Web Development'],
+    
     typeSpeed: 100,
   });
   var tl=gsap.timeline()
