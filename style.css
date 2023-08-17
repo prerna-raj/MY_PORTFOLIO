@@ -119,28 +119,35 @@ nav{
 
 /* Media query for navbar */
 @media screen and (max-width: 690px) {
+    body{
+        overflow: hidden;
+    }
+    
     nav {
        height: 70px;
         flex-direction: column;
-        padding: 1px; 
-        margin-top: 20px;     
+        align-items: center;
+        justify-content: center;
+        padding: 3vw; 
+        margin-top: 20px;    
+        font-size: 1rem; 
     }
     .nav-items{
         margin-top: 2px;
     }
     .nav-items a{ 
-        margin: 2px 25px;
+        margin: 2px 10px;
     }
     .hero{
         flex-direction: column-reverse;
     }
     .right{
         width:100vw;
-        margin: 3vw;
+        margin: 4vw;
         height: calc(100vh - 70vh);
     }
     .right img{
-        width:60%;
+        width:100%;
     }
     .left{
         width:100vw;
@@ -148,12 +155,12 @@ nav{
        
     }
     .left h1{
-        font-size: 1.9rem;
+        font-size: 2rem;
         margin: 5vw 0vw 0vw 36vw;
     }
     .left h1 span{
         color: #2c4da2;    
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .button a{
         margin: 8px 30px 0 -10px;
