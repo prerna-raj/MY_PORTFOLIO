@@ -17,7 +17,7 @@ var typed = new Typed('#element', {
     opacity:0,
     stagger:0.3
   })
-  tl.from(".right img",{
+  tl.from(".right img,.button a",{
       scale:0,
       opacity:0,
       
