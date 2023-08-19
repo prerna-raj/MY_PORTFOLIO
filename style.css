@@ -121,6 +121,7 @@ nav{
 @media screen and (max-width: 690px) {
     body{
         overflow: hidden;
+        width:100vw;
     }
     
     nav {
@@ -141,6 +142,8 @@ nav{
     }
     .hero{
         flex-direction: column-reverse;
+        height: calc(100vh - 70px);
+        justify-content: flex-end;
     }
     .right{
         width:100vw;
