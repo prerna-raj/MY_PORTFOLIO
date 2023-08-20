@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media (max-width: 330px){
+@media screen and (max-width:576px){
     nav{
         flex-direction: column;
         height: 70px;
@@ -27,7 +27,6 @@
     .left{
         height:50%;
         width: 100vw;
-        /* background-color: tomato; */
         margin: 0;
         padding: 0;
     }
