@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media (max-width: 300px){
+@media (max-width: 330px){
     nav{
         flex-direction: column;
         height: 70px;
