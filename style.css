@@ -70,6 +70,8 @@ nav{
     justify-content: center;
     flex-direction: column;
     margin-right: 0vw;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .left h1{
     width:100%;
@@ -80,9 +82,15 @@ nav{
 }
 .button{
     display: flex;
+    align-self: flex-start;
+
+}
+.resume{
+    margin-right: 20px;
 }
 .button a{
-    margin: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding:12px;
     border:none;
     border-radius:10px;
@@ -107,6 +115,18 @@ nav{
     width: 85%;
     
 }
+.socials{
+    font-size: 2.1rem;
+    margin-left: 2px;
+    align-self: flex-start;
+    text-decoration: none;
+}
+.socials a{
+    color: #a99b9b;
+}
+.socials a:hover{
+    color: #2c4da2;
+}
 .scroll{
     position: relative;
     left: 50%;
@@ -117,7 +137,7 @@ nav{
 
 
 /* Media query for navbar */
-@media screen and (max-width: 344px) {
+/* @media screen and (max-width: 320px) {
     body{
         overflow: hidden;
         width:100vw;
@@ -146,7 +166,6 @@ nav{
     }
     .right{
         width:100vw;
-        /* margin: 4vw; */
         height: calc(100vh - 70vh);
     }
     .right img{
@@ -239,7 +258,7 @@ nav{
     top: 10%;
 }
 }
-@media screen and (max-width:610px) {
+@media screen and (max-width:576px) {
     .button a{
         font-size: 1 rem;
     }
@@ -257,7 +276,7 @@ nav{
         align-items: center;
         justify-content: center;
     }
-}
+} */
 
 
 

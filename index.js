@@ -1,5 +1,5 @@
 var typed = new Typed('#element', {
-    strings: ['Coder','Web Designer','Front-End Web Developer' ],
+    strings: ['Coder','Student','Web Designer','Front-End Web Developer' ],
     
     typeSpeed: 100,
   });
@@ -21,6 +21,11 @@ var typed = new Typed('#element', {
       scale:0,
       opacity:0,
       
+  })
+  tl.from(".socials",{
+    y:100,
+    opacity:0,
+    ease:"power.in"
   })
  tl.from(".scroll",{
   y:30,
