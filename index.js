@@ -12,7 +12,7 @@ var typed = new Typed('#element', {
       opacity:0,
       stagger:0.3
   })  
-  tl.from(".hero , .left , .right",{
+  tl.from(".hero , .left h1, .right",{
     y:100,
     duration:1,
     opacity:0,
@@ -26,7 +26,7 @@ var typed = new Typed('#element', {
   opacity:0
  })
  tl.to('.about_img', {
-  x: -90,  
+  x:-95,  
   stagger: 0.2,
   ease: "back.out(1.7)",
   scrollTrigger:{
@@ -50,18 +50,18 @@ tl.from('.about_content', {
     scrub:2,
   }
 },'a');
- tl.from(" .heading , .skills",{
-  scale:0,
-  rotate:360,
-  x:100,
-  ease:"linear",
-  scrollTrigger:{
-    trigger:".heading",
-    scroller:"body",
-    start:"top center",
-    end:"50% 90%",
-    scrub:2,
-  }
-})
+//  tl.from(" .heading , .skills",{
+//   scale:0,
+//   rotate:360,
+//   x:100,
+//   ease:"linear",
+//   scrollTrigger:{
+//     trigger:".heading",
+//     scroller:"body",
+//     start:"top center",
+//     end:"50% 90%",
+//     scrub:2,
+//   }
+// })
 
   
