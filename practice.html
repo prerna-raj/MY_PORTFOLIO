@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+    .container{
+        background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .back{
+        height: 70%;
+        display: flex;
+        align-items: center;
+        
+        /* background-color: rgba(255, 255, 255, 0.074);
+        border: 1px solid rgba(255, 255, 255, 0.222);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        border-radius: .7rem;       */
+
+        background: rgba(255, 255, 255, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(14.7px);
+        -webkit-backdrop-filter: blur(14.7px);
+        border: 1px solid rgba(255, 255, 255, 0.33);
+    }
+    .container .back:hover {
+  box-shadow: 0px 0px 20px 1px #ffbb763f;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+.img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.content{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 39px;
+    word-spacing: -1px;
+    width: 50%;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+     
+        <div class="back">
+            <div class="img">
+                <img src="/img/dp.png" alt="">
+            </div>
+            <div class="content">
+                Hi i am prerna! Completed my graduation in BCA and am currently pursuing MCA. My interest lies in web development, Which led me to embark on my journey into front-end web development. I'm well-versed in HTML,CSS and javascript, and i also have a basic understanding of Bootstrap,React.js, and GSAP. I'm excited to continue honing my skills and contributing to engaging and user-friendly web interfaces.
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="practuce.js"></script>
+</body>
+</html>
