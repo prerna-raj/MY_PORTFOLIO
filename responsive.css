@@ -123,10 +123,10 @@
         padding: 14px;    
     }
     .about_content h3{
-        font-size: 0.8rem;
-        word-spacing: 0px;
+        font-size: 0.9rem;
+        word-spacing: -1px;
         text-align: justify;
-        line-height: 23px;
+        line-height: 24px;
     }
 }
 /* @media (max-width: 575px){
