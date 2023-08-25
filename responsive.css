@@ -115,7 +115,6 @@
         width: 150px;
         object-fit: cover;
         object-position: center;
-        margin: 26px;
     }
     .about_content{
         width:100vw;
@@ -127,6 +126,7 @@
         word-spacing: -1px;
         text-align: justify;
         line-height: 24px;
+        padding: 9px;
     }
 }
 /* @media (max-width: 575px){
