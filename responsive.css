@@ -145,12 +145,12 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);        
         grid-gap: 37px;
-        margin-top: 30%;
+        margin-top: 27%;
         place-items: center;
     }
     .skills{
-        height: 90px;
-        width: 90px;
+        height: 110px;
+        width: 110px;
         border-radius: 10px;
         background: #dcdada;
         box-shadow:  22px 22px 44px #bbb9b9,
