@@ -128,6 +128,39 @@
         line-height: 24px;
         padding: 9px;
     }
+    /*my skills responsiveness*/
+    .my-skill{
+        width: 100vw;
+        height: 100vh;
+    }
+    .heading h1{
+        border-bottom: 2px solid rgb(196, 196, 196);
+        width: 90%;
+        margin: 10px !important;
+       color: #080918;
+       text-align: center;
+    }
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);        
+        grid-gap: 37px;
+        margin-top: 15%;
+        place-items: center;
+    }
+    .skills{
+        height: 90px;
+        width: 90px;
+        border-radius: 10px;
+        background: #dcdada;
+        box-shadow:  22px 22px 44px #bbb9b9,
+                 -22px -22px 44px #fdfbfb;
+    }
+    .skills img{
+        width: 50%;
+        height: 50%;
+        margin: 20px;
+    }
 }
 /* @media (max-width: 575px){
     nav{

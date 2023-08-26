@@ -180,16 +180,27 @@ nav{
     word-spacing: 5px;
 }
 /* style for skills section*/
+
 .my-skill{
     height: 100vh;
     width: 100vw;
     background-color: #dadada;
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    padding: 5vw;
-    grid-row-gap: 25px;
 }
-
+.heading h1{
+    border-bottom: 2px solid rgb(196, 196, 196);
+    width: 90%;
+   padding: 20px;
+   color: #080918;
+   margin-left: 60px;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);        
+    grid-gap: 37px;
+    margin: 2%;
+    place-items: center;
+}
 .skills{
     height: 190px;
     width: 190px;
@@ -202,16 +213,4 @@ nav{
     width: 50%;
     height: 50%;
     margin: 50px;
-}
-.heading {
-    grid-column: 1 / span 4;
-    color: black;
-    margin: 10px;
-}
-.heading h1{
-    border-bottom: 2px solid rgb(196, 196, 196);
-    width: 90%;
-   padding: 10px;
-   font-weight: 900;
-   font-family: 'Poppins', sans-serif;
 }
