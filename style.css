@@ -16,6 +16,7 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
    background-color: #000;
+   background-color: #1B1B1B;
    color: #fff;
 }
 
@@ -88,13 +89,15 @@ nav{
 .resume{
     margin-right: 20px;
 }
+.resume i{
+    margin: 10px;
+}
 .button a{
     margin-top: 20px;
     margin-bottom: 20px;
     padding:12px;
     border:1px solid #2c4da2;
     border-radius:10px;
-    /* background:#2c4da2 ; */
     color:#fff;
     cursor:pointer;
     font-size: 1.5vw;
@@ -134,7 +137,11 @@ nav{
     font-size: 1.2rem;
     top: 25%;
 }
-
+hr{
+    width:90%;
+    color: rgb(192, 191, 191);
+    margin: 0 auto;
+}
 /**About Us Section Styling**/
 .about{
     display: flex;
@@ -142,7 +149,7 @@ nav{
     justify-content: space-around;
     height: 100vh;
     width: 100vw;  
-    background-color: #080918;
+    background-color: #1B1B1B;
 }
 .wrapper{
     border:none;
@@ -213,4 +220,128 @@ nav{
     width: 50%;
     height: 50%;
     margin: 50px;
+}
+
+/*styling for my-project*/
+.project-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 7px;
+        background: #dcdada;
+        box-shadow:  17px 17px 32px #bbb9b9,
+             -17px -17px 32px #fdfbfb;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: filter 0.3s;
+  }
+  
+  .project-description {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(122, 114, 114, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: bottom 0.3s;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .project-description a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .project-container:hover .project-image {
+    filter: blur(5px);
+  }
+  
+  .project-container:hover .project-description {
+    bottom: 0;
+  }
+  
+  .my-project {
+    display: flex;
+    flex-wrap: wrap;
+    height: 86vh;
+    width: 80vw;
+    margin: 0 auto;
+  }
+ #project{
+    height: 100vh;
+    width: 100vw;
+    background-color: #dadada;
+    margin: 0 auto
+ }
+ #project .pro-head{
+    border-bottom: 2px solid rgb(196, 196, 196);
+    width: 90%;
+   padding: 20px;
+   color: #080918;
+   margin-left: 60px;
+   
+ }
+ .pro-head h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+ }
+ 
+  */
+/*footer styling*/
+#footer {
+    height : 50vh;
+    width: 100vw;
+    display:flex;
+    
+}
+.upper-footer {
+    height: 100%;
+    width: 30%;
+}
+.upper-footer img{
+    height: 100%;
+    width: 100%;
+}
+.right-footer{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.right-footer h1{
+    height: 100%;
+    width: 100%;
+    
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.icon i {
+  flex-direction: row;
+  align-self: center;
+  justify-self: center;
+  margin: 0 28px;
+  font-size:2.5rem;
+}
+.icon a{
+    color: white;
+}
+.right-footer p{
+    font-size:1.2rem;
+    align-self: center;
+  justify-self: center;
 }

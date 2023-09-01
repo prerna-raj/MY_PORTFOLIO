@@ -1,8 +1,4 @@
-var typed = new Typed('#element', {
-    strings: ['Coder','Student','Web Designer','Front-End Web Developer' ],
-    
-    typeSpeed: 100,
-  });
+
   var tl=gsap.timeline( )
 
   tl.from("nav .logo,nav .nav-items",{
