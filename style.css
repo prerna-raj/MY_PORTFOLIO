@@ -110,6 +110,9 @@ nav{
     font-weight: 500;
     text-decoration: none;
 }
+.button .hire{
+    padding: 1.1vw;
+}
 .button > a:hover {
     background-color: #2c4da2;
     color: #dadada;
