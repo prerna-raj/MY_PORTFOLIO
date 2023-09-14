@@ -411,7 +411,7 @@
   }
   .my-skill {
     width: 100vw;
-    height: 89vh!important;
+    height: 83vh!important;
   }
   .heading h1 {
     border-bottom: 2px solid rgb(196, 196, 196);
@@ -423,7 +423,7 @@
   .skill-container {
     grid-template-columns: repeat(2, 1fr)!important;
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 6px !important;
+    grid-gap: 10px !important;
     margin-top: 15%;
     place-items: center;
   }
@@ -439,6 +439,11 @@
     height: 50%;
     margin: 25px;
   }
+  .pro-head {
+    width: 76% !important;
+    padding: 18px !important;
+    margin-left: 40px !important;
+}
   .footer {
     flex-direction: column;
     height: 80vh !important;
@@ -481,7 +486,7 @@
   }
   .right-footer p {
     font-size: 0.9rem;
-    margin: 0;
+    margin-left: 8px !important;
   }
 }
 
